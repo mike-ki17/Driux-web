@@ -14,6 +14,8 @@ export interface ServiceCombo {
   price: number;
   businessTypes: string[];
   forDelivery?: boolean;
+  mantenimiento?: boolean,
+
 }
 
 export interface MaintenancePlan {

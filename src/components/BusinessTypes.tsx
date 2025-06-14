@@ -29,7 +29,7 @@ const BusinessTypes: React.FC<BusinessTypesProps> = ({ onBusinessSelect, selecte
   };
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-gray-900" id='business-types'>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6">
@@ -101,6 +101,7 @@ const BusinessTypes: React.FC<BusinessTypesProps> = ({ onBusinessSelect, selecte
                         ${combo.price.toLocaleString()}
                       </div>
                       <div className="text-sm text-gray-400">Pago único</div>
+                      {combo.mantenimiento == true &&( <div className='text-sm text-gray-400 w-40 font-bold'>+ 1 mes de mantenimiento gratis</div>)}
                     </div>
                   </div>
 

@@ -51,16 +51,18 @@ export const serviceCombos: ServiceCombo[] = [
     name: 'Combo Delivery Completo',
     description: 'Solución integral para negocios con servicio a domicilio',
     features: [
-      'Menú digital interactivo',
+      'Sitio web responsive con menú interactivo',
       'Bot de WhatsApp automático',
       'Sistema de pedidos online',
       'Integración con delivery',
       'Catálogo de productos',
-      'Panel de administración'
+      'Panel de administración',
+      '1 mes de mantenimiento gratuito'
     ],
     price: 450000,
     businessTypes: ['restaurant', 'bakery', 'hardware'],
-    forDelivery: true
+    forDelivery: true,
+    mantenimiento: true,
   },
   {
     id: 'digital-showcase',
@@ -72,11 +74,15 @@ export const serviceCombos: ServiceCombo[] = [
       'Formulario de contacto',
       'Google Maps integrado',
       'Galería de trabajos',
-      'Optimización SEO local'
-    ],
+      'Optimización SEO local',
+      '1 mes de mantenimiento gratuito',
+
+     ],
     price: 280000,
     businessTypes: ['barbershop', 'stationery', 'clothing'],
-    forDelivery: false
+    forDelivery: false,
+    mantenimiento: true,
+
   },
   {
     id: 'business-control',
@@ -88,11 +94,15 @@ export const serviceCombos: ServiceCombo[] = [
       'Reportes de ventas',
       'CRM básico de clientes',
       'Análisis de rentabilidad',
-      'Backup automático'
+      'Backup automático',
+      '1 mes de mantenimiento gratuito',
+      
     ],
     price: 380000,
     businessTypes: ['restaurant', 'bakery', 'hardware', 'stationery', 'clothing'],
-    forDelivery: true
+    forDelivery: true,
+    mantenimiento: true,
+
   },
   {
     id: 'social-presence',
@@ -104,11 +114,13 @@ export const serviceCombos: ServiceCombo[] = [
       'Programación de posts',
       'Interacción con clientes',
       'Reportes de engagement',
-      'Estrategia digital'
+      'Estrategia digital',
     ],
     price: 320000,
     businessTypes: ['barbershop', 'bakery', 'clothing'],
-    forDelivery: false
+    forDelivery: false,
+    mantenimiento: false,
+
   }
 ];
 
@@ -133,8 +145,7 @@ export const maintenancePlans: MaintenancePlan[] = [
       'Hosting incluido',
       'Reportes de mejora',
       'Optimización mensual',
-      'Soporte prioritario'
-    ],
+      'Soporte prioritario'    ],
     highlight: true
   },
   {
@@ -147,7 +158,6 @@ export const maintenancePlans: MaintenancePlan[] = [
       'Ajustes estratégicos',
       'Consultoría digital',
       'Análisis de competencia',
-      'Soporte 24/7'
-    ]
+      'Soporte 24/7'    ]
   }
 ];

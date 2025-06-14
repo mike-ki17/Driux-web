@@ -40,12 +40,12 @@ const Header: React.FC = () => {
           
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25">
+            <a href='#business-types' className="group bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25">
               <div className="flex items-center">
                 <Zap className="w-5 h-5 mr-2 group-hover:animate-pulse" />
                 Ver Soluciones
               </div>
-            </button>
+            </a>
             
             <a 
               href="https://wa.me/573001234567?text=Hola! Me interesa digitalizar mi negocio con Web Local Pro"
