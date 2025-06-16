@@ -47,6 +47,24 @@ export const businessTypes: BusinessType[] = [
 
 export const serviceCombos: ServiceCombo[] = [
   {
+    id: 'web-starter',
+    name: 'Presencia Web Rápida',
+    description: 'Pagina web profesional para estar visible en internet',
+    features: [
+      'Pagina web profesional',
+      'Formulario de contacto',
+      'Botón de WhatsApp',
+      'Mapa de ubicación',
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
+    ],
+    price: 250000,
+    businessTypes: ['restaurant', 'bakery', 'hardware', 'stationery', 'clothing'],
+    forDelivery: false,
+    mantenimiento: true,
+  },
+  {
+    
     id: 'delivery-complete',
     name: 'Combo Delivery Completo',
     description: 'Solución integral para negocios con servicio a domicilio',
@@ -57,6 +75,7 @@ export const serviceCombos: ServiceCombo[] = [
       'Integración con delivery',
       'Catálogo de productos',
       'Panel de administración',
+      'Dominio y hosting 1 año',
       '1 mes de mantenimiento gratuito'
     ],
     price: 450000,
@@ -75,14 +94,13 @@ export const serviceCombos: ServiceCombo[] = [
       'Google Maps integrado',
       'Galería de trabajos',
       'Optimización SEO local',
-      '1 mes de mantenimiento gratuito',
-
-     ],
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
+    ],
     price: 280000,
     businessTypes: ['barbershop', 'stationery', 'clothing'],
     forDelivery: false,
     mantenimiento: true,
-
   },
   {
     id: 'business-control',
@@ -95,34 +113,102 @@ export const serviceCombos: ServiceCombo[] = [
       'CRM básico de clientes',
       'Análisis de rentabilidad',
       'Backup automático',
-      '1 mes de mantenimiento gratuito',
-      
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
     ],
-    price: 380000,
+    price: 420000,
     businessTypes: ['restaurant', 'bakery', 'hardware', 'stationery', 'clothing'],
     forDelivery: true,
     mantenimiento: true,
-
   },
+  // {
+  //   id: 'social-presence',
+  //   name: 'Presencia Social',
+  //   description: 'Gestión profesional de redes sociales',
+  //   features: [
+  //     'Diseño de redes sociales',
+  //     'Creación de contenido',
+  //     'Programación de posts',
+  //     'Interacción con clientes',
+  //     'Reportes de engagement',
+  //     'Estrategia digital'
+  //   ],
+  //   price: 320000,
+  //   businessTypes: ['barbershop', 'bakery', 'clothing'],
+  //   forDelivery: false,
+  //   mantenimiento: false,
+  // },
   {
-    id: 'social-presence',
-    name: 'Presencia Social',
-    description: 'Gestión profesional de redes sociales',
+    id: 'product-catalog',
+    name: 'Catálogo Comercial Interactivo',
+    description: 'Muestra tus productos y promociones con estilo',
     features: [
-      'Diseño de redes sociales',
-      'Creación de contenido',
-      'Programación de posts',
-      'Interacción con clientes',
-      'Reportes de engagement',
-      'Estrategia digital',
+      'Página de productos con filtros y categorías',
+      'Galería de imágenes',
+      'Botón de contacto o compra por WhatsApp',
+      'Panel de carga básica de productos',
+      'Optimización móvil',
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
     ],
     price: 320000,
-    businessTypes: ['barbershop', 'bakery', 'clothing'],
+    businessTypes: ['stationery', 'clothing', 'hardware', 'bakery'],
+    forDelivery: true,
+    mantenimiento: true,
+  },
+  {
+    id: 'ecommerce-lite',
+    name: 'Tienda Online Esencial',
+    description: 'Vende tus productos online de forma sencilla',
+    features: [
+      'Página de inicio atractiva',
+      'Carrito de compras simple',
+      'Gestión de productos y pedidos',
+      'Control de inventario',
+      'Checkout por WhatsApp o formulario',
+      'Hasta 50 productos',
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
+    ],
+    price: 500000,
+    businessTypes: ['clothing', 'bakery', 'hardware'],
+    forDelivery: true,
+    mantenimiento: true,
+  },
+  {
+    id: 'crm-solo',
+    name: 'Clientes Conectados',
+    description: 'Panel simple para gestionar tu cartera de clientes',
+    features: [
+      'Registro y búsqueda de clientes',
+      'Historial de interacciones',
+      'Exportación en Excel',
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
+    ],
+    price: 280000,
+    businessTypes: ['barbershop', 'restaurant', 'stationery'],
     forDelivery: false,
-    mantenimiento: false,
-
+    mantenimiento: true,
+  },
+  {
+    id: 'admin-lite',
+    name: 'Control de Inventario y Factura',
+    description: 'Sistema web para negocios que quieren orden sin complicarse',
+    features: [
+      'Facturación local básica',
+      'Inventario con alertas de stock',
+      'Reportes de ventas diarios',
+      'Dominio y hosting 1 año',
+      '1 mes de mantenimiento gratuito'
+    ],
+    price: 300000,
+    businessTypes: ['hardware', 'stationery', 'bakery'],
+    forDelivery: false,
+    mantenimiento: true,
   }
 ];
+
 
 export const maintenancePlans: MaintenancePlan[] = [
   {
